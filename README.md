@@ -40,7 +40,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/dpaul8195/ml-pipeline.git
 cd ml-pipeline
 pip install -r requirements.txt
-
+```
 ## 🛠️ Usage
 
 1. 📝 **Prepare Configuration File**  
@@ -53,9 +53,9 @@ pip install -r requirements.txt
 3. 🚀 **Run the Pipeline**  
    Execute the main script to start the automated ML process:
 
-   ```bash
+```bash
    python main.py
-
+```
 4. 📈 **View Results**
     The script will automatically print evaluation metrics based on the task type (classification or regression).
 
@@ -99,7 +99,7 @@ Here’s a minimal working example of a configuration file for a regression task
     }
   }
 }
-
+```
 ## 🧩 Configuration Options
 
 | Section            | Description                                                                 |
@@ -118,7 +118,7 @@ ml-pipeline/
 ├── main.py                 
 ├── requirements.txt        
 └── README.md            
-
+```
 
 ---
 
